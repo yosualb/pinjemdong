@@ -1,0 +1,25 @@
+.card-image-detail {
+	height: 160px;
+}
+
+.title {
+	font-size: 1.3em;
+}
+
+.region {
+	width: 50%;
+}
+
+.parallax-container {
+	height: 500px;
+}
+
+.search-box {
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.logo {
+	height: 64px;
+	width: 64px;
+}
