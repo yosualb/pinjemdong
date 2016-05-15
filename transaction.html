@@ -12,7 +12,7 @@
 <body>
 	<nav>
 		<div class="nav-wrapper blue">
-			<a href="#" class="brand-logo blue-text">
+			<a href="index.html" class="brand-logo blue-text">
 				<img src="img/logo.png" class="logo"></img>
 			</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down blue">
@@ -33,7 +33,7 @@
 						<input type="text" id="search">
 						<label for="search">Cari barang pinjamanmu di sini!</label>
 					</div>
-					<a href="#featured-product" class="btn-large waves-effect waves-light blue">Cari barang</a>
+					<a href="index.html#featured-product" class="btn-large waves-effect waves-light blue">Cari barang</a>
 				</div>
 			</div>
 		</div>
@@ -41,72 +41,45 @@
 			<img src="img/background.jpg" alt="Unsplashed background img 1">
 		</div>
 	</div>
+	<div class="section" id="item-detail">
+		<div class="container">
+			<h3 class="header blue-text text-darken-5">Spesifikasi Barang</h3>
+			<div class="divider"></div>
+			<br/>
+			<div class="row">
+				<div class="col s6">
+					<img class="item-detail-image" src="img/sleeping-bag.jpg">
+				</div>
+				<div class="col s6">
+					<h4 class="blue-text text-darken-2 truncate">Sleeping Bag</h4>
+					<p class="grey-text">Anthony - Tangerang</p>
+					<p class="green-text">Tersedia 2 barang</p>
+					<div class="input-field col s12">
+						<select>
+							<option value="mingguan">Rp50.000 / minggu</option>
+							<option value="bulanan">Rp190.000 / bulan</option>
+							<option value="tahunan">Rp2.000.000 / tahun</option>
+						</select>
+						<label>Durasi Peminjaman</label>
+					</div>
+					<div class="input-field col s12">
+						<select>
+							<option value="jne-reguler">JNE - Reguler</option>
+							<option value="jne-yes">JNE - YES</option>
+							<option value="pos">Kantor Pos</option>
+							<option value="sicepat">Si Cepat</option>
+						</select>
+						<label>Jasa Kurir</label>
+					</div>
+					<a href="signup.html#signup-form" class="btn-large waves-effect waves-light blue">Pinjam barang</a>
+				</div>
+			</div>
+		</div>
 	<div class="section" id="featured-product">
 		<div class="container">
 			<h3 class="header blue-text text-darken-5">Barang Utama</h3>
 			<div class="divider"></div>
-			<br/>
 			<div class="row">
-				<div class="col s12 m6 l3">
-					<div class="card small hoverable">
-						<div class="card-image">
-							<a href="transaction.html#item-detail"><img class="card-image-detail" src="img/sleeping-bag.jpg"></a>
-						</div>
-						<div class="card-content">
-							<div class="title blue-text text-darken-2 truncate"><a href="transaction.html#item-detail">Sleeping Bag</a></div>
-							<div class="light-green-text text-darken-1 truncate">Rp50.000 / minggu</div>
-							<div class="grey-text truncate left">Anthony</div>
-							</br>
-							<div class="region grey-text truncate left">Tangerang</div>
-							<div class="green-text truncate right">Tersedia</div>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l3">
-					<div class="card small hoverable">
-						<div class="card-image">
-							<a href="transaction.html#item-detail"><img class="card-image-detail" src="img/ronin.jpg"></a>
-						</div>
-						<div class="card-content">
-							<div class="title blue-text text-darken-2 truncate"><a href="transaction.html#item-detail">Ronin</a></div>
-							<div class="light-green-text text-darken-1 truncate">Rp1.000.000 / hari</div>
-							<div class="grey-text truncate left">Joko</div>
-							</br>
-							<div class="region grey-text truncate left">Jakarta Barat</div>
-							<div class="green-text truncate right">Tersedia</div>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l3">
-					<div class="card small hoverable">
-						<div class="card-image">
-							<a href="transaction.html#item-detail"><img class="card-image-detail" src="img/lampu-panggung.jpg"></a>
-						</div>
-						<div class="card-content">
-							<div class="title blue-text text-darken-2 truncate"><a href="transaction.html#item-detail">Lampu Panggung</a></div>
-							<div class="light-green-text text-darken-1 truncate">Rp200.000 / hari</div>
-							<div class="grey-text truncate left">Andi</div>
-							</br>
-							<div class="region grey-text truncate left">Depok</div>
-							<div class="red-text truncate right">Kosong</div>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l3">
-					<div class="card small hoverable">
-						<div class="card-image">
-							<a href="transaction.html#item-detail"><img class="card-image-detail" src="img/studio-lighting.jpg"></a>
-						</div>
-						<div class="card-content">
-							<div class="title blue-text text-darken-2 truncate"><a href="transaction.html#item-detail">Studio Lighting</a></div>
-							<div class="light-green-text text-darken-1 truncate">Rp500.000 / hari</div>
-							<div class="grey-text truncate left">Andi</div>
-							</br>
-							<div class="region grey-text truncate left">Depok</div>
-							<div class="green-text truncate right">Tersedia</div>
-						</div>
-					</div>
-				</div>
 				<div class="col s12 m6 l3">
 					<div class="card small hoverable">
 						<div class="card-image">
@@ -167,9 +140,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row center">
-				<a href="#featured-product" class="btn-large waves-effect waves-light blue">Lihat lagi</a>
 			</div>
 		</div>
 	</div>
